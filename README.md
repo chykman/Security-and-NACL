@@ -73,6 +73,26 @@
         ![image](https://github.com/user-attachments/assets/68592e65-b278-4d5a-9200-3ac5ad1962eb)
 
         - ![image](https://github.com/user-attachments/assets/2e149294-1240-4602-80e2-06c9598aa626)
+    
+        - Go to the outbound rules
+          ![image](https://github.com/user-attachments/assets/0d6113b4-a461-4841-8791-d9ba2922a87a)
+
+          - Make changes to the inbound rules and save
+            ![image](https://github.com/user-attachments/assets/ee29fa7d-666f-4c35-a54b-5e5609184686)
+
+            - Goto actions and click on subnet associations
+              ![image](https://github.com/user-attachments/assets/988df6de-f4ee-47cd-957b-748d5621c9ad)
+             - Select the subnet and save
+              ![image](https://github.com/user-attachments/assets/6d1b8875-7496-4add-a27b-7d3383fe1c7f)
+
+           Test your access to the instance,there is still no access cos of the outbound rules are still not allowing traffic
+          -![image](https://github.com/user-attachments/assets/2ec9c444-39e0-4112-9133-d95c860af62e)
+
+
+
+
+         
+
 
 
 
