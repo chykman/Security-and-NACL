@@ -97,50 +97,35 @@
             -  ![image](https://github.com/user-attachments/assets/ea46c93b-7e05-4b40-9aa2-aabd763fff82)
           
               - You should be able to access your site
-              - 
+                ![image](https://github.com/user-attachments/assets/aa4b6e83-1326-4159-a4de-c9bf66c132a5)
+
                 
                 
 
     ## 5. Testing implications of both NACL and Security group rules
 
    - Go to your security group and set the inbound rules
-     
+      ![image](https://github.com/user-attachments/assets/5428e542-fe7d-43d3-ad2f-68524b3920f0)
 
 
+    - And also set your outbound rules
+      ![image](https://github.com/user-attachments/assets/9537894c-9782-4e0a-89ab-9578ce67085a)
+  
+  - Got to NACL and set your rules for both inbound and outbound
+    For inbound 
+     ![image](https://github.com/user-attachments/assets/c321bfa7-faaa-453d-97bc-93d24542986c)
+    For outbound
+    ![image](https://github.com/user-attachments/assets/d603cd9a-6f67-4667-a4db-f0dbadd40c98)
 
-
-
-
-
-         
-
-
-
-
-
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    - Try and access the site, it is unaccessible
+      ![image](https://github.com/user-attachments/assets/8e13b5d1-70fd-4871-85af-c32beccffff4)
 
 ---
 
-## 3. Troubleshooting (Common Issues and Solutions)
+## 6. Troubleshooting (Common Issues and Solutions)
 
-### 3.1. VPC Not Connecting to Internet
-**Issue:** Instances in the VPC cannot access the internet.
+### 3.1. Trying to ensure the server was accessible
+**Issue:** Could not get access to the server.
 **Solution:**
 - Ensure an Internet Gateway is attached.
 - Verify route tables include a route to `0.0.0.0/0` via the Internet Gateway.
