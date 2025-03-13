@@ -88,6 +88,27 @@
            Test your access to the instance,there is still no access cos of the outbound rules are still not allowing traffic
           -![image](https://github.com/user-attachments/assets/2ec9c444-39e0-4112-9133-d95c860af62e)
 
+          Goto to your outbound rules and edit
+          - ![image](https://github.com/user-attachments/assets/933721e7-d793-4ec4-bb15-e30cd3ad4cbd)
+         
+          - Add your rule and save
+            ![image](https://github.com/user-attachments/assets/1d85fca2-f2ea-4e25-99d0-b3e1b14eca8b)
+            Add the same rule for inbound
+            -  ![image](https://github.com/user-attachments/assets/ea46c93b-7e05-4b40-9aa2-aabd763fff82)
+          
+              - You should be able to access your site
+              - 
+                
+                
+
+    ## 5. Testing implications of both NACL and Security group rules
+
+   - Go to your security group and set the inbound rules
+     
+
+
+
+
 
 
 
